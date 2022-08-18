@@ -1,7 +1,13 @@
-function App() {
+import Layout from "./components/Layout/Layout";
+import{useEffect} from 'react'
+
+function App({result}) {
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [result])
   return (
     <div>
-      <h1>hello world</h1>
+      <Layout/>
     </div>
   );
 }

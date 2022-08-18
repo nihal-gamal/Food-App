@@ -1,0 +1,8 @@
+.checkout__bell{
+    background-color:#fde4e4 ;
+    padding: 30px;
+}
+.checkout__total{
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
